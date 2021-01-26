@@ -1,0 +1,95 @@
+#mine{
+    margin: 50px auto;
+}
+.level{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.level button{
+    padding: 5px 15px;
+    background-color: #f5f5dc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.level button.active{
+    background: burlywood;
+}
+
+table{
+    border-spacing: 1px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+td{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #CCC;
+    border:2px solid;
+    /*设置矩阵的样式*/
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.info{
+    margin-top: 10px;
+    text-align: center;
+}
+.mine{
+    background:#fff url(./img/mine.png)no-repeat center;
+    background-size: cover;
+}
+.flag{
+    background:#ccc url(./img/flag.gif)no-repeat center;
+    background-size: cover;
+}
+td.zero{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: #d9d9d9;
+}
+td.one{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: royalblue;
+}
+td.two{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: lightseagreen;
+}
+td.three{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: orange;
+}
+td.four{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: darksalmon;
+}
+td.five{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: palevioletred;
+}
+td.six{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: darkgreen;
+}
+td.seven{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: lightblue;
+}
+td.eight{
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: red;
+}
+.bar{
+    text-align: center;
+}
